@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="André Chéchile">
+        <meta name="description" content="Esta pagina web trata sobre una empresa que se dedica a vender y distribuir productos apicolas">
+        <meta name="keywords" content="HTML, apicola, miel, sitio web, empresa">
+        <link rel="stylesheet" href="./css/registrarse.css">
+        <link rel="icon" href="../img/icons8-abeja-48.png">
+
+    </head>
+    <body>
+
+        <h1 id="titulo">Registrarse</h1>
+            
+            
+        <header class="header">
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="../../index.html">INICIO</a></li>
+                <li class="menu__item"><a href="./historia.html" class="menu__link">HISTORIA DE LA APICULTURA</a></li>
+                <li class="menu__item"><a href="./beneficios.html" class="menu__link">BENEFICIOS DE CONSUMIR MIEL</a></li>
+                <li class="menu__item"><a href="./productos.html" class="menu__link">PRODUCTOS</a></li>
+                <li class="menu__item"><a href="./inciar secion.html" class="menu__link">INICIAR SESIÓN</a></li>
+                <li class="menu__item"><a href="./registrarse.html" class="menu__link">REGISTRARSE</a></li>
+              </ul>
+            </nav>
+         </header>
+      
+
+    </body>
+    <form id="miFormulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+      
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br>
+      
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required><br>
+      
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required><br>
+      
+        <label for="genero">Género:</label>
+        <select id="genero" name="genero">
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+          <option value="otro">Otro</option>
+        </select><br>
+      
+        <button type="submit">Guardar</button>
+
+    <footer class="footer">
+        <div class="footer-content">
+
+            <div class="footer-logo">
+                <img src="../img/logo.png" alt="Logo" class="footer-logo__img">
+            </div>
+            
+            <div class="footer-redes">
+              <a href="#" class="footer-redes__enlace">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook" class="footer-redes__img">
+              </a>
+              <a href="#" class="footer-redes__enlace">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram" class="footer-redes__img">
+              </a>
+              <a href="#" class="footer-redes__enlace">
+                  <img src="https://resizer.glanacion.com/resizer/v2/elon-musk-cambio-el-logo-de-WHTIWEV47VHEHDV4QYC6PRXVBE.jpg?auth=29e4042f48af310deb7e46ab9afc31d8ef98589c3c1c1c29d6be7ce335477df1&width=768&quality=70&smart=true" alt="X" class="footer-redes__img">
+              </a>
+          </div>
+
+        </div>
+
+        <div class="footer-derechos">
+            <p class="footer-derechos__parrafo">Todos los Derechos Reservados ©</p>
+        </div>
+    </footer>
+
+    <script src="../pages/js/registrarse.js"></script>
+
+</body>
+</html>
